@@ -1,0 +1,36 @@
+# How to communicate with developers
+
+  - Me
+    - I'm Joah Gerstenberg
+    - I work as a software engineer here at Capital One
+    - I've been coding since I was 13
+    - Married to Haley
+    - not a designer
+  - Document. Document. Document. (documentation)
+    - definitely the biggest point
+      - makes everybody's job easier
+    - the best documentation is the UI
+      - where the data should be/how it should be formatted
+      - basic flow of what needs to happen
+      - handing over a well thought out and complete UI will make you a dev's dream designer
+      - there are always exceptions
+    - style guides are awesome for documentation
+      - 
+    - stay ahead
+      - have all of the assets necessary to the dev before he needs them -- ideally, include them in the initial design handoff
+  - be decisive
+    - decide what the interface should look like, and stick to it
+      - there is a lot of decisions that go into a web design, like colors, illustrations, etc, that a dev probably doesn't (and doesn't need to) understand.
+      - devs have enough decisions to make on their own, that don't affect the design as much as the code structure, architecture, etc. if UI/UX decisions are made by the designer, and are well documented on handoff, the dev has more time to spend on developing, rather than tinkering with cool stuff to do with the UX
+    - don't change mid-cycle
+      - stick to your original structure.
+      - it's a pain to go back and make changes to the layout once a signficant amount of HTML/CSS has been written
+  - communicate
+    - there will always be things that aren't communicated on handoff, things that weren't documented, etc.
+    - be available for questions from the dev, though email, slack, skype, or whatever you use to communicate
+    - reqpond quickly
+    - be decisive
+  - test it yourself
+    - developers will inevitably miss something; be sure to go back through the developed project and look for things that were missed
+    - don't blame them, help them fix it
+    - explain why it's failing, and what the desired action should be

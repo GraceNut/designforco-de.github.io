@@ -1,0 +1,39 @@
+.slide:not(.no-footer):not(.gif)::after {
+  content: '@therealjoahg | d4co.de/2016/may/communicate';
+}
+
+.logo img {
+  min-width: 60%;
+}
+
+.sponsors img {
+  max-height: 90px !important;
+  max-width: 20% !important;
+  display: inline-block;
+  width: auto !important;
+  vertical-align: middle;
+  margin:  0 20px;
+}
+
+.sponsors {
+  white-space: nowrap;
+  padding:  50px 0;
+}
+
+.about-me h2, .about-me h3, .about-me h4 {
+    margin: 0;
+}
+
+.about-me h2 {
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.about-me h3 {
+    font-weight: 300;
+}
+
+.about-me h4 {
+    font-weight: 300;
+    font-size: 28px;
+}

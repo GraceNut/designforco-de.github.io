@@ -1,0 +1,179 @@
+img {
+  max-width: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+section {
+  display: inline-block;
+  text-align: left;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+.wifi {
+  margin-top: 20px;
+}
+
+.slide {
+  font-family: 'Open Sans';
+  background: #e4f9ff;
+  color: #24454C;
+}
+
+.slide:not(.gif) img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.slide.gif img, .slide.title img {
+    position: absolute;
+    height: 100%;
+    left: -10000px;
+    right: -10000px;
+    margin: auto;
+    top: 0;
+    width: auto;
+    max-width: none;
+}
+
+.slide.title h1 {
+    background:white;
+    padding:20px;
+    line-height: 1;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.slide.title img + h1 {
+  position: absolute;
+    top: 150px;
+    left: 0;
+    right: auto;
+    bottom: auto;
+}
+
+/*.slide:not(.no-footer):not(.gif)::before {
+    content: '';
+    position: absolute;
+    background: url('/img/logo.png') no-repeat center/100%;
+    bottom: 30px;
+    left: 30px;
+    width: 200px;
+    height: 50px;
+    line-height: 1;
+}*/
+
+.slide:not(.no-footer):not(.gif)::after {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  line-height:1;
+  font-size: 18px;
+}
+
+.slide main {
+  line-height: 1.4;
+  padding: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.slide center {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  line-height: 100vh;
+  text-align: center;
+}
+
+.slide center > .inner {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.slide p {
+  text-align: center;
+  font-size: 24px;
+}
+
+.slide a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.slide[id="1"] {
+  color: #676767;
+  background: white;
+}
+
+.slide[id="1"] .bmtjs {
+  width: 700px;
+}
+
+.slide[id="1"] .c1 {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  width: 200px;
+  line-height: 1;
+}
+
+.slide[id="1"] .armorshred {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  width: 200px;
+  line-height: 1;
+}
+
+
+.socials {
+    font-size: 26px;
+    padding-top: 30px;
+    text-align: left;
+    max-width: 300px;
+    margin: auto
+}
+
+.socials > div {
+    padding-left: 35px;
+    position: relative;
+    padding:  10px 0 10px 60px;
+}
+
+.socials > div:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.socials > .slack:before {
+    background-image: url('/img/socials/slack.png');
+}
+
+.socials > .twitter:before {
+    background-image: url('/img/socials/twitter.png');
+}
+
+.socials > .facebook:before {
+    background-image: url('/img/socials/facebook.png');
+}
