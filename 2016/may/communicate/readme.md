@@ -15,7 +15,6 @@
       - handing over a well thought out and complete UI will make you a dev's dream designer
       - there are always exceptions
     - style guides are awesome for documentation
-      - 
     - stay ahead
       - have all of the assets necessary to the dev before he needs them -- ideally, include them in the initial design handoff
   - be decisive

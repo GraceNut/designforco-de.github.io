@@ -61,16 +61,13 @@ section {
     bottom: auto;
 }
 
-/*.slide:not(.no-footer):not(.gif)::before {
-    content: '';
-    position: absolute;
-    background: url('/img/logo.png') no-repeat center/100%;
-    bottom: 30px;
-    left: 30px;
-    width: 200px;
-    height: 50px;
-    line-height: 1;
-}*/
+.slide:not(.no-footer):not(.gif)::before {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  line-height:1;
+  font-size: 18px;
+}
 
 .slide:not(.no-footer):not(.gif)::after {
   position: absolute;
@@ -111,16 +108,16 @@ section {
   text-decoration: inherit;
 }
 
-.slide[id="1"] {
+.slide.cover {
   color: #676767;
   background: white;
 }
 
-.slide[id="1"] .bmtjs {
+.slide.cover .bmtjs {
   width: 700px;
 }
 
-.slide[id="1"] .c1 {
+.slide.cover .c1 {
   position: absolute;
   bottom: 30px;
   left: 30px;
@@ -128,7 +125,7 @@ section {
   line-height: 1;
 }
 
-.slide[id="1"] .armorshred {
+.slide.cover .armorshred {
   position: absolute;
   bottom: 30px;
   right: 30px;
