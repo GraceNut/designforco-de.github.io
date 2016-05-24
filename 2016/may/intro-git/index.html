@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="../../../template/slides.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="../../../template/slides.js"></script>
+    <title>Introduction to Git - Cash Williams</title>
+  </head>
+  <body>
+    <section class="slide">
+      <h1>Hello, my name is</h1>
+      <main>
+        <h2 class="hand-written xxlarge-text">Git</h2>
+      </main>
+    </section>
+    <section class="slide">
+      <h1>Cash Williams</h1>
+      <main>
+        <ul>
+          <li>Performance and Security Lead at <a href='http://acquia.com'>Acquia</a></li>
+          <li>Open Source developer for 10+ years
+            <ul>
+              <li>PHP
+                <ul>
+                  <li><a href="http://drupal.org">Drupal</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Twitter: <a href="https://twitter.com/cashwilliams">@CashWilliams</a></li>
+        </ul>
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>Go Fast!</h1>
+      <main>
+        <ul>
+          <li>Speed = 11</li>
+          <li>Lot to cover</li>
+          <li>Introduction &lt; Training</li>
+          <li>Asked for more time then everyone else</li>
+        </ul>
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>How You (Might) Work</h1>
+      <main>
+        <img class="full" src="images/1.png">
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>How You Work</h1>
+      <main>
+        <img class="full" src="images/2.png">
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>How You (Might) Work</h1>
+      <main>
+        <img class="full" src="images/3.png">
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>How You (Might) Work</h1>
+      <main>
+        <img class="full" src="images/4.png">
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>How You (Might) Work</h1>
+      <main>
+        <img class="full" src="images/5.png">
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>How You (Might) Work</h1>
+      <main>
+        <img class="full" src="images/6.png">
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>How You (Might) Work</h1>
+      <main>
+        <img class="full" src="images/7.png">
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>Why Git?</h1>
+      <main>
+        <ul>
+          <li>Industry Standard</li>
+          <li>Free and Open Source</li>
+          <li>Fast</li>
+          <li>Distributed Code</li>
+          <li>Easy Experimentation</li>
+        </ul>
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>What is Git?</h1>
+      <main>
+        <ul>
+          <li>Version Control System (VCS)</li>
+          <li>Started in 2005 - guy that made Linux</li>
+        </ul>
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>What Git Does</h1>
+      <main>
+        <img class="full" src="images/office_space.jpg">
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>What Git Does</h1>
+      <main>
+        <ul>
+          <li>Manages changes:
+            <ul>
+              <li>Differences between changes as "history"</li>
+              <li>Who made the changes</li>
+              <li>Sharing those changes</li>
+              <li>In a project <strong><em>folder</em></strong></li>
+            </ul>
+          </li>
+        </ul>
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>Using Git: Create</h1>
+      <main>
+        Create: <em class="keyword">Initialize</em> a new project:
+        <div class="code">
+          <code>$ mkdir [project folder]</code><br>
+          <code>$ cd [project folder]</code><br>
+          <code>$ git init</code>
+        </div>
+        <div class="hr"><span>OR</span></div>
+        Download: <em class="keyword">Clone</em> an existing project:
+        <div class="code">
+          <code>$ git clone [project url]</code>
+        </div>
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>Business as usual</h1>
+      <main>
+        <ul>
+          <li>Create files as needed</li>
+          <li>Change files as usual</li>
+          <li>(Nothing to do with Git)</li>
+        </ul>
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>Using Git: Add</h1>
+      <main>
+        <ul>
+          <li>Git only "saves" files that are selected</li>
+          <li>Called <em class="keyword">staging</em> files</li>
+        </ul>
+        <br>
+        <div class="code">
+          <code>$ git add [files]</code>
+        </div>
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>Using Git: Commit</h1>
+      <main>
+        <ul>
+          <li>Save: <em class="keyword">Commit</em> the <em class="keyword">staged</em> files</li>
+        </ul>
+        <div class="code">
+          <code>$ git commit -m "[Description of what you did]"</code>
+        </div>
+        <br>
+        <ul>
+          <li><em class="keyword">Commits</em> labeled with a <em class="keyword">hash</em></li>
+        </ul>
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>Using Git: Push</h1>
+      <main>
+        <ul>
+          <li>Send: <em class="keyword">Push</em> your changes</li>
+          <li>So far the <em class="keyword">commits</em> made are local</li>
+        </ul>
+        <div class="code">
+          <code>$ git push [remote] [branch]</code>
+        </div>
+        <br>
+        <em>Note -</em> You can wait and <em class="keyword">push</em> multiple <em class="keyword">commits</em> at once
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>Using Git: Fetch</h1>
+      <main>
+        <ul>
+          <li>Download: <em class="keyword">Fetch</em> other people's changes</li>
+        </ul>
+        <br>
+        <div class="code">
+          <code>$ git fetch [remote]/[branch]</code>
+        </div>
+        <div class="hr"><span>OR</span></div>
+        <div class="code">
+          <code>$ git fetch --all</code>
+        </div>
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>Using Git: Diff</h1>
+      <main>
+        <ul>
+          <li>Compare: <em class="keyword">Diff</em> changes</li>
+        </ul>
+        <br>
+        Changes you made
+        <div class="code">
+          <code>$ git diff</code>
+        </div>
+        <div class="hr"><span>OR</span></div>
+        Changes others made
+        <div class="code">
+          <code>$ git diff [remote]/[branch]</code>
+        </div>
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>Using Git: Merge</h1>
+      <main>
+        <ul>
+          <li>(Magic): <em class="keyword">Merge</em> changes</li>
+        </ul>
+        <br>
+        <div class="code">
+          <code>$ git merge [remote]/[branch]</code>
+        </div>
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>Using Git: Checkout</h1>
+      <main>
+        <ul>
+          <li>Experiment: <em class="keyword">Checkout</em> a <em class="keyword">branch</em></li>
+        </ul>
+        <br>
+        Create a new branch
+        <div class="code">
+          <code>$ git checkout -b [branch]</code>
+        </div>
+        <div class="hr"><span>OR</span></div>
+        Switch to an existing branch
+        <div class="code">
+          <code>$ git checkout [branch]</code>
+        </div>
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>Using Git: Log</h1>
+      <main>
+        <ul>
+          <li>Review: List the <em class="keyword">history</em> of the project</li>
+          <li>The <em class="keyword">history</em> is a <em class="keyword">log</em> of all the <em class="keyword">commits</em></li>
+        </ul>
+        <br>
+        <div class="code">
+          <code>$ git log</code>
+        </div>
+      </main>
+    </section>
+    <section class="slide title">
+      <h1>Questions</h1>
+      <main>
+        <h2 class="hand-written xxlarge-text">Q &amp; A</h2>
+      </main>
+    </section>
+  </body>
+</html>
