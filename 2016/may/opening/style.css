@@ -1,0 +1,27 @@
+.slide > img {
+  vertical-align: middle;
+}
+
+.slide.zero {
+  background: #202020;
+}
+
+.slide.one {
+  background: #231F20;
+}
+
+.slide.two {
+  background: #14B09C;
+}
+
+.slide.three {
+  background: #FFFFFF;
+}
+
+.slide.four {
+  background: #FFFFFF;
+}
+
+.slide.five {
+  background: #FFFFFF;
+}
